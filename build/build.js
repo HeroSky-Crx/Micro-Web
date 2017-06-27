@@ -1,4 +1,4 @@
-require('check-versions')()
+require('')()
 
 process.env.NODE_ENV = 'production'
 
