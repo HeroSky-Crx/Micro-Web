@@ -7,6 +7,7 @@ const state = {
 
 const getters = {}
 
+// actions 用于异步提交 mutations
 const actions = {
   [types.ADD_COUNT_ASYNC] ({ commit, state }) {
     setTimeout(() => {
@@ -16,7 +17,7 @@ const actions = {
 }
 
 const mutations = {
-  [types.ADD_COUNT] (state) {
+  [types.ADD_COUNT] (state, payload) {
     state.count += 1
   }
 }
