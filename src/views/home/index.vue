@@ -24,7 +24,7 @@
       ...mapActions('home', [
         types.ADD_COUNT_ASYNC
       ]),
-      ...mapMutations('home', [
+      ...mapMutations('hhhhhhhhhhhhhhh', [
         types.ADD_COUNT
       ])
     }
