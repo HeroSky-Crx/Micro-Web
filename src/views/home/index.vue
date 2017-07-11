@@ -33,4 +33,7 @@
 
 <style scoped lang="scss">
   @import './style.scss';
+  body {
+	  color: #fff;
+  }
 </style>
