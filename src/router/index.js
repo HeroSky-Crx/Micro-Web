@@ -8,6 +8,9 @@ import Home from 'views/home'
 import ChallangeLayout from 'views/challange'
 import ChallangeVideo from 'views/challange/video'
 
+// 社区
+import Communities from 'views/communities'
+
 export default new Router({
   routes: [
     {
@@ -23,6 +26,10 @@ export default new Router({
           component: ChallangeVideo
         }
       ]
+    },
+    {
+      path: '/communities',
+      component: Communities
     }
   ]
 })
