@@ -1,6 +1,6 @@
 <template>
   <div id="v-challange-video">
-    <c-video-list-item v-for="video in videoList" :data="video"></c-video-list-item>
+    <c-video-list-item v-for="(video, index) in videoList" :key="index" :data="video"></c-video-list-item>
   </div>
 </template>
 
