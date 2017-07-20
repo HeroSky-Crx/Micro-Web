@@ -9,31 +9,8 @@
   </div>
 </template>
 
-<script>
-  import * as types from 'src/store/mutation-types'
-  import { mapState, mapActions, mapMutations } from 'vuex'
 
-  export default {
-    computed: {
-      ...mapState('home', [
-        'name',
-        'count'
-      ])
-    },
-    methods: {
-      ...mapActions('home', [
-        types.ADD_COUNT_ASYNC
-      ]),
-      ...mapMutations('hhhhhhhhhhhhhhh', [
-        types.ADD_COUNT
-      ])
-    }
-  }
-</script>
 
 <style scoped lang="scss">
   @import './style.scss';
-  body {
-	  color: #fff;
-  }
 </style>
