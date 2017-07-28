@@ -1,0 +1,56 @@
+/*
+    颜色变量
+*/
+
+// 主题色
+$brand-primary-light:               #ffa57d !default;
+$brand-primary-mid:                 #fe8e79 !default;
+$brand-primary-dark:                #fd7875 !default;
+
+// 明暗色调
+$white:                             #ffffff !default;
+$white-base:                        #fdfcfc !default;
+$white-mid:                         #efefef !default;
+$white-darkest:                     #f5f2f0 !default;
+
+$gray-base:                         #999999 !default;
+$gray-mid:                          #666666 !default;
+$gray-darkest:                      #333333 !default;
+
+
+/*
+    层级
+*/
+$index-1:                              1!default;
+$index-2:                              2!default;
+$index-3:                              3!default;
+$index-4:                              4!default;
+$index-5:                              5!default;
+$index-6:                              6!default;
+$index-7:                              7!default;
+$index-8:                              8!default;
+$index-9:                              9!default;
+$index-10:                             10!default;
+
+
+/*
+    基础距离变量
+*/
+
+$base:                  25px;
+
+// 动态
+$dynamic-card:          20px;
+
+
+/*
+    各种字体大小
+*/
+$base:                  px2rem(14);
+
+
+/*
+    基础路径
+*/
+$image-path-base:            "../images/";
+

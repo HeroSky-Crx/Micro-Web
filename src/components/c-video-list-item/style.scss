@@ -1,0 +1,32 @@
+.c-video-list-item__wrap {
+  width: 100%;
+  color: #fff;
+  background-color: #f08f7b;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+  &:last-child {
+    margin: 0;
+  }
+  .c-video-list-item__left {
+    width: 50%;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  .c-video-list-item__right {
+    width: 50%;
+    .c-video-list-item__name {
+      display: block;
+      margin-top: 50px;
+      text-align: center;
+    }
+    .c-video-list-item__play {
+      width: 25px;
+      height: 25px;
+      margin: 10px auto 0;
+      background: url('/static/images/challanges/video/vchance_play_icon.png') center center no-repeat;
+    }
+  }
+}

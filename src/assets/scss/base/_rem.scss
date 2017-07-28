@@ -1,0 +1,50 @@
+/**
+ ** px2rem  参考
+ **
+ */
+/* 
+ *px2rem begin
+ */
+
+/* 
+ * 设计视图宽度
+ */
+$baseView:750;
+/* 
+ * rem的基础size,与js中计算document.documentElement.style.fontSize对应
+ * 建议用32 iphone6时默认字体大小为16*2
+ */
+
+$baseRootSize:32;
+/*
+ * sass 方法
+ */
+@function px2rem($px){
+	@return $px / $baseRootSize * 1rem;
+}
+/*
+
+//使用方法,写数字尺寸的位置更换为  px2rem(设计图尺寸) 例如:
+//padding: 0 20px;
+//padding: 0 px2rem(20);
+
+
+ * lpx2rem end
+ */
+
+/*
+	定义返回高度比值的函数
+*/ 
+$baseHeight: 1334;
+
+@function getHS($px){
+	@return $px / $baseHeight * 100%;
+}
+
+/*
+	定义返回宽度比值函数
+*/
+
+@function getWS($px){
+	@return $px / $baseView  * 100%;
+}

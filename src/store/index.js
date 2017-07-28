@@ -7,6 +7,7 @@ import home from './modules/home'
 
 Vue.use(Vuex)
 
+// 装配 store
 export default new Vuex.Store({
   getters,
   actions,

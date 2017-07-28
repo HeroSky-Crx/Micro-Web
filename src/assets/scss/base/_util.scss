@@ -1,0 +1,70 @@
+/*
+    本模块封装常用类名
+*/
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.center {
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+// font
+.font-slim{
+    font-weight: 200;
+}
+
+.font-normal {
+    font-weight: 400;
+}
+
+.font-bold {
+    font-weight: 700;
+}
+
+/*
+    循环生成margin/padding
+    frefix - mg/pd
+    position - lf/rg/tp/bt - 左右上下
+    suffix - num *5
+    eg: mg-tp-0
+*/
+
+@for $num from 0 to 55 {
+    @if ($num % 5) == 0 {
+        .mg-lf-#{$num} {
+            margin-top: #{$num}px!important;
+        }
+        .pd-lf-#{$num} {
+            padding-top: #{$num}px!important;
+        }
+        .mg-rg-#{$num} {
+            margin-right: #{$num}px!important;
+        }
+        .pd-rg-#{$num} {
+            padding-right: #{$num}px!important;
+        }
+        .mg-tp-#{$num} {
+            margin-top: #{$num}px!important;
+        }
+        .pd-tp-#{$num} {
+            padding-top: #{$num}px!important;
+        }
+        .mg-bt-#{$num} {
+            margin-bottom: #{$num}px!important;
+        }
+        .pd-bt-#{$num} {
+            padding-bottom: #{$num}px!important;
+        }
+    }
+}
+
