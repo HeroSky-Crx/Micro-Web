@@ -8,7 +8,6 @@
     </div>
   </div>
 </template>
-
 <script>
   import * as types from 'src/store/mutation-types'
   import { mapState, mapActions, mapMutations } from 'vuex'
@@ -29,6 +28,7 @@
       ])
     }
   }
+  
 </script>
 
 <style scoped lang="scss">
